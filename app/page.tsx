@@ -1,7 +1,7 @@
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import { SignUpButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+import { SignUpCTA } from "@/components/sign-up-cta";
 import {
   Link,
   Zap,
