@@ -44,12 +44,7 @@ export default async function Home() {
             </p>
 
             <div className="flex items-center justify-center gap-3 pt-4">
-              <SignUpButton>
-                <Button size="lg" className="gap-2">
-                  Get Started Free
-                  <span className="text-lg">→</span>
-                </Button>
-              </SignUpButton>
+              <SignUpCTA label="Get Started Free" />
               <Button
                 variant="outline"
                 size="lg"
@@ -229,12 +224,7 @@ export default async function Home() {
             their links with ease.
           </p>
           <div className="mt-8 flex items-center justify-center gap-3">
-            <SignUpButton>
-              <Button size="lg" className="gap-2">
-                Start For Free
-                <span className="text-lg">→</span>
-              </Button>
-            </SignUpButton>
+            <SignUpCTA label="Start For Free" />
           </div>
         </div>
       </section>
